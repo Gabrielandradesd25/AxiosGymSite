@@ -311,7 +311,7 @@ nav button:hover {
 
 @media only screen and (max-width: 768px) {
     .navbar{
-        width: 50%;
+        width: 100%;
     }
     
     .navbar .navbar__content .logo {
@@ -401,7 +401,11 @@ nav button:hover {
 
 @media only screen and (max-width: 768px){
     #member .img{
-        width: 305%;
+        width: 500px;
+        height: 200px;
+        display: flex;
+        margin: auto;
+        overflow: hidden;
     }
 
     #program .program{
