@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axios Gym</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <h1><span>Axios</span> Gym</h1>
+            </div>
+            <div class="navbar__content max-width mb-0">
+                <ul class="navbar__links">
+                    <a href="">Home</a>
+                    <a id="trains" href="#trainer">Treinadores</a>
+                    <a id="members" href="#member">Membros</a>
+                    <a id="programs" href="#program">Programas</a>
+                    <a id="connects" href="#connect">conecte-se</a>
+                    <button id="mainBtn">Login</button>
+                </ul>
+                <div class="navbar__mobile">
+                    <img src="assets/images/menu.svg" alt="menu" class="mobile" />
+                    <ul class="mobile__links">
+                        <a href="">Home</a>
+                        <a id="trains" href="#trainer">Treinadores</a>
+                        <a id="members" href="#member">Membros</a>
+                        <a id="programs" href="#program">Programas</a>
+                        <a id="connects" href="#connect">conecte-se</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="join">
+            <input type="text" placeholder="Seu nome" id="names"><br>
+            <input type="password" placeholder="Sua senha" id="number"><br>
+            <button id="join">Logar</button>
+        </div>
+
+        <div class="main">
+            <div class="mainText">
+                <h1>Vamos dar o primeiro passo!</h1>
+                <h2>30% Off na assinatura</h2>
+                <p>Bem-vindo à Axios, onde suor e determinação se transformam em força e superação,
+                    <br>impulsionando você rumo ao seu melhor eu.
+                </p>
+                <a href="#trainer" class="btnM">Iniciar Jornada!</a>
+            </div>
+            <img src="assets/images/undraw_personal_trainer_re_cnua.svg" alt="">
+        </div>
+
+        <div class="crd" id="trainer">
+            <div class="head">
+                <h1>Treine Com <span>Os Melhores</span></h1>
+            </div>
+
+            <div class="train">
+                <div class="card">
+                    <img src="assets/images/trainer1.jpg" alt="">
+                    <div class="trainText">
+                        <h2>Aprenda Com Os Melhores</h2>
+                        <p>personal trainer excepcional que motiva, orienta e desafia seus clientes a alcançarem seus
+                            melhores resultados.</p>
+                        <a href="">Bora Treinar!</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/trainer2.jpg" alt="">
+                    <div class="trainText">
+                        <h2>Aprenda Com Os Melhores</h2>
+                        <p>Com conhecimento especializado e empatia, ele transforma vidas através do poder do
+                            condicionamento físico.</p>
+                        <a href="">Bora Treinar!</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/trainer3.jpg" alt="">
+                    <div class="trainText">
+                        <h2>Aprenda Com Os Melhores</h2>
+                        <p>Te leva para sua melhor versão, enquanto cria uma conexão baseada no respeito e no cuidado
+                            individualizado.</p>
+                        <a href="">Bora Treinar!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slidebar" id="member">
+            <div class="head">
+                <h1>Axios Gym <span>Membros</span></h1>
+            </div>
+
+            <div class="img">
+                <img class="slide" src="assets/images/slide1.jpg" alt="">
+                <img class="slide" src="assets/images/slide2.jpg" alt="">
+                <img class="slide" src="assets/images/slide3.jpg" alt="">
+                <img class="slide" src="assets/images/slide4.jpg" alt="">
+                <img class="slide" src="assets/images/slide5.jpg" alt="">
+                <img class="slide" src="assets/images/slide6.jpg" alt="">
+                <img class="slide" src="assets/images/slide7.jpg" alt="">
+                <img class="slide" src="assets/images/slide8.jpg" alt="">
+            </div>
+
+            <div class="btn">
+                <button id="prev">Anterior</button>
+                <button id="next">Próximo</button>
+
+            </div>
+        </div>
+
+        <div class="pro" id="program">
+            <div class="head">
+                <h1>Nossos <span>Programas</span></h1>
+            </div>
+            <div class="program">
+                <div class="proCard">
+                    <img src="assets/images/card1.jpg" alt="">
+                    <h2>Dança</h2>
+                </div>
+                <div class="proCard">
+                    <img src="assets/images/card2.jpg" alt="">
+                    <h2>Cardio</h2>
+                </div>
+                <div class="proCard">
+                    <img src="assets/images/card3.jpg" alt="">
+                    <h2>Treino Com Peso</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="connect">
+            <div class="head">
+                <h1>Conecte-se <span>Conosco</span></h1>
+            </div>
+
+            <div class="connect">
+                <input type="text" placeholder="Seu nome" id="name"><br>
+                <input type="number" placeholder="Seu Número" id="pass"><br>
+                <button id="submit">Enviar</button>
+            </div>
+        </div>
+        <foooter class="footer">
+            <div class="text">
+                <h2>Sobre nós</h2>
+                <p>Bem-vindo à academia, o lugar onde o suor se transforma em conquistas,<br>
+                    os desafios se tornam superações e os sonhos ganham forma.Aqui,<br>
+                    você encontrará uma comunidade dedicada,instrutores apaixonados<br>
+                    e um ambiente propício para transformar seu corpo e mente.</p>
+            </div>
+            <div class="text">
+                <h2>Serviços</h2>
+                <p>Satisfação</p>
+                <p>Bem-estar</p>
+                <p>Saúde</p>
+                <p>Suporte</p>
+                <p>Acessível</p>
+            </div>
+            <div class="text">
+                <h2>Treino</h2>
+                <p>Personais</p>
+                <p>Treinos Únicos</p>
+                <p>Acompanhamento</p>
+                <p>Nutricionistas</p>
+            </div>
+            <div class="text">
+                <h2>Endereço</h2>
+                <p>São Paulo</p>
+                <p>Rio de Janeiro</p>
+                <p>Bahia</p>
+                <p>Amazonas</p>
+            </div>
+        </foooter>
+    </div>
+    <script src="assets/javascript/script.js"></script>
+</body>
+
+</html>
