@@ -420,6 +420,7 @@ nav button:hover {
         display: flex;
         flex-direction: column;
         align-itens: center;
+        margin-left: 17px;
     }
 
     #program .program .proCard{
