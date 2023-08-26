@@ -412,11 +412,14 @@ nav button:hover {
         overflow: hidden;
     }
 
+    #program{
+        margin: auto;
+    }
+    
     #program .program{
         display: flex;
         flex-direction: column;
         align-itens: center;
-        margin: auto;
     }
 
     #program .program .proCard{
@@ -425,7 +428,6 @@ nav button:hover {
 
     #program .program .proCard img{
         width: 100%;
-        margin: auto;
     }
 }
 
