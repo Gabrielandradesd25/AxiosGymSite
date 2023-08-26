@@ -360,6 +360,7 @@ nav button:hover {
     .main {
         flex-direction: column-reverse;
         text-align: center;
+        align-itens: center;
     }
 
     .main .mainText {
@@ -400,8 +401,8 @@ nav button:hover {
 }
 
 @media only screen and (max-width: 768px){
-    #member .img{
-        width: 500px;
+    .img{
+        width: 80%;
         height: 200px;
         display: flex;
         margin: auto;
