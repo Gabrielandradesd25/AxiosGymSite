@@ -399,6 +399,7 @@ nav button:hover {
 
     .train .card{
         margin-bottom: 20px;
+        margin: auto;
     }
 }
 
@@ -414,6 +415,8 @@ nav button:hover {
     #program .program{
         display: flex;
         flex-direction: column;
+        align-itens: center;
+        margin: auto;
     }
 
     #program .program .proCard{
@@ -422,7 +425,7 @@ nav button:hover {
 
     #program .program .proCard img{
         width: 100%;
-        margin-left: 14px;
+        margin: auto;
     }
 }
 
