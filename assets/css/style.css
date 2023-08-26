@@ -369,11 +369,12 @@ nav button:hover {
 
     .main img {
         width: 100%;
+        margin: auto;
     }
 
     .main .mainText h1 {
         font-size: 35px;
-        margin-left: 25px;
+        margin: auto;
     }
 
     .main .mainText h2 {
@@ -393,6 +394,7 @@ nav button:hover {
     .train{
         display: flex;
         flex-direction: column;
+        margin: auto;
     }
 
     .train .card{
@@ -403,7 +405,7 @@ nav button:hover {
 @media only screen and (max-width: 768px){
     .img{
         width: 80%;
-        height: 200px;
+        height: 100px;
         display: flex;
         margin: auto;
         overflow: hidden;
@@ -436,6 +438,7 @@ nav button:hover {
     .footer{
         display: flex;
         flex-direction: column;
+        align-itens: center;
     }
 
     .footer .text{
